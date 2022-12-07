@@ -88,8 +88,6 @@
 # else: 
 #     print("Can not detect")
 
-
-
 # #dictionary 
 # dicts = {
 #     "key1" : "food",
@@ -116,4 +114,25 @@
 
 # plt.pie(y, labels = mylabels)
 # plt.show() 
+
+# #Given an integer array nums,
+# #return true if any value appears at least twice in the array, 
+# #and return false if every element is distinct.
+# #Solution:
+
+# def containsDuplicate(nums):
+#     if len(nums) == len(set(nums)):
+#         return False
+#     else: 
+#         return True
+
+# nums = [1,1,1,3,3,4,3,2,4,2]
+# result = containsDuplicate(nums)
+# if nums ==result:
+#     print("True")
+# else :
+#     print("False")
+
+
+
 
