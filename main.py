@@ -88,3 +88,32 @@
 # else: 
 #     print("Can not detect")
 
+
+
+# #dictionary 
+# dicts = {
+#     "key1" : "food",
+#     "key2" : "flower",
+#     "key2" : "fruit",  #Duplicate values will overwrite existing values:
+#     "key3" : "flower",
+#     "key4" : ["butterfly","star","hills"]
+# }
+# print(dicts)
+# print(dicts["key1"])
+# print(len(dicts))
+# print(type(dicts))
+
+# #The dict() Constructor
+
+# dictionary = dict(key0="country", key1="division", key2="unioun")
+# print(dictionary)
+
+# #Creating Pie Charts 
+# import matplotlib.pyplot as plt
+# import numpy as np
+# y = np.array([35, 25, 25, 15])
+# mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+
+# plt.pie(y, labels = mylabels)
+# plt.show() 
+
